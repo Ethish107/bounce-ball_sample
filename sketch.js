@@ -22,13 +22,13 @@ function setup() {
       groundD.debug = true;
     }
   }
-  // for(var i=-500;i<0;i = i+100){
-  //   for(var j = 20;j < 820;j = j+ 50){
-  //     ground.push(groundB = createSprite(i,j,100,50));
-  //     groundB.addImage(brickImage);
-  //     groundB.debug = true;
-  //   }
-  // }
+   for(var i=-500;i<0;i = i+100){
+   for(var j = 20;j < 820;j = j+ 50){
+     ground.push(groundB = createSprite(i,j,100,50));
+     groundB.addImage(brickImage);
+      groundB.debug = true;
+     }
+   }
 
   for(var i= 0;i<6000;i = i+100){
     for(var j = 20;j < 220;j = j+ 50){
